@@ -1,0 +1,36 @@
+1) LCS
+You are given three strings: s1, s2, and s3. Your task is to find the length of the longest common subsequence (LCS) that is common to all three strings.
+A subsequence of a string is a sequence that can be derived from another string by deleting some or no elements without changing the order of the remaining elements. For example, the string "abc" is a subsequence of "axbxc", but "acь" is not.
+Your goal is to determine the maximum length of a subsequence that is common to all three strings.
+Example:
+Consider the strings:
+s1 = "abcde"
+s2 = "ace"
+s3 = "aec"
+The longest subsequence common to all three strings is "ae", so the length of the longest common subsequence is 2.
+Let's say you are given the strings:
+s1 = "abc",
+s2 = "def",
+s3 = "ghi".
+In this case, there is no common subsequence among all three strings, so the output would be 0.
+Goal:
+Find the length of the longest subsequence that appears in all three given strings.
+Function Description
+s1: A string of lowercase English letters.
+s2: A string of lowercase English letters.
+s3: A string of lowercase English letters.
+Returns:
+• Return an integer representing the length of the longest subsequence common to all three strings.
+Constraints
+• 1≤len(sl), len(s2), len (s3) ≤ 100
+The strings contain only lowercase English letters.
+▼Sample Case 0
+Sample Input 0
+Input:
+abcde
+ace
+aec
+Sample Output 0
+2
+Explanation
+The longest common subsequence is ""ae"".
